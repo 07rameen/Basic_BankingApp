@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">sqlLiteApplication</string>
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="sjsj">TODO</string>
+    <string name="current_name">Current Name</string>
+    <string name="view">View</string>
+    <string name="add_data">Add Data</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="user_name">User Name</string>
+    <string name="update">Update</string>
+    <string name="new_name">New Name</string>
+    <string name="delete">Delete</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_password2">Enter Password</string>
+    <string name="enter_name_to_delete_data">Enter Name to Delete Data</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="kkkk">Enter Email</string>
+    <string name="balance">Balance</string>
+    <string name="enter_balance">Enter Balance</string>
+    <string name="add">Add</string>
+    <string name="viewing">View</string>
+    <string name="akaka">TextView</string>
+    <string name="banking_app">Banking App</string>
+    <string name="button">Button</string>
+    <string name="akkaa">TODO</string>
+    <string name="lala">TODO</string>
+    <string name="view_customers">View Customers</string>
+    <string name="akakska">TextView</string>
+    <string name="skkas">TextView</string>
+    <string name="qkwkw">TextView</string>
+    <string name="eler">TextView</string>
+    <string name="ererr">TextView</string>
+    <string name="lss">TextView</string>
+    <string name="sds">Transfer Money</string>
+    <string name="sdslksks">TODO</string>
+    <string name="select">Select</string>
+    <string name="transfer_money">Transfer Money</string>
+    <string name="show_customers">Show Customers</string>
+    <string name="display_customers">Display Customers</string>
+
+
+</resources>

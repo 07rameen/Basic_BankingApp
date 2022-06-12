@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="50dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="50dp"
+    android:background="#C16A6A"
+    tools:context=".BankingApp.BankingMainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:gravity="center_vertical|center"
+        android:hint="@string/enter_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textStyle="bold|italic"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:hint="@string/enter_password"
+        android:text="@string/email"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="center"
+        android:hint="@string/enter_password"
+        android:text="@string/balance"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:gravity="center_vertical|center"
+        android:hint="@string/kkkk"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editPass3"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="127dp"
+        android:ems="10"
+        android:gravity="center_vertical|center"
+        android:hint="@string/enter_balance"
+        android:importantForAutofill="no"
+        android:inputType="number|numberDecimal"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="290dp"
+        android:layout_height="99dp"
+        android:layout_below="@id/editPass3"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="246dp"
+        android:onClick="viewdata"
+        android:text="@string/viewing" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="403dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/editPass3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="addUser"
+        android:text="@string/add" />
+
+</RelativeLayout>
